@@ -11,3 +11,7 @@
 .button1:hover {
     background-color: #5341b8; /* Darker shade of blue on hover */
 }
+
+body {
+    font-family: "Fragment Mono";
+}

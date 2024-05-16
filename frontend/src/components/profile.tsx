@@ -1,4 +1,3 @@
-import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Profile = () => {
@@ -7,6 +6,8 @@ const Profile = () => {
   if (isLoading) {
     return <div>Loading ...</div>;
   }
+
+  console.log(isAuthenticated);
 
   return (
     isAuthenticated && (
