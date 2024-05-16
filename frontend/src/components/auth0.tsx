@@ -7,7 +7,7 @@ const AuthButton = () => {
   if (isAuthenticated) {
     return <Button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })} color="inherit">Logout</Button>
   } else {
-    return <Button onClick={() => loginWithRedirect()} color="inherit">Login</Button>;
+    return <Button onClick={() => loginWithRedirect()} color="inherit">Login to mothership</Button>;
   }
 
 }

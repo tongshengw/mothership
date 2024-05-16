@@ -15,3 +15,13 @@
 body {
     font-family: "Fragment Mono";
 }
+
+.logo {
+    max-height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
