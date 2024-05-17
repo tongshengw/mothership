@@ -105,7 +105,7 @@ function Header() {
 
             {/* CHANGE HERE to change left side links when compressed */}
                 <MenuItem key='Home' onClick={handleCloseNavMenu}>
-                    <Link to='/'>
+                    <Link to='/' className='link'>
                         <Typography textAlign="center">Home</Typography>
                     </Link>
                 </MenuItem>
