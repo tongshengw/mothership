@@ -46,7 +46,11 @@ function Header() {
         <Toolbar disableGutters>
             {/* <Link style={{textDecoration:'none', color: 'white'}} to='/'>
             <div> */}
+          <Link to='/' className='linkWhite'>
           <img src='../../public/white on transparent mothership logo.png' className='logo' ></img>
+          </Link>
+          
+          <Link to='/' className='linkWhite'>
           <Typography
             variant="h6"
             noWrap
@@ -63,6 +67,7 @@ function Header() {
           >
             Mothership
           </Typography>
+          </Link>
           {/* </div>
           </Link> */}
 
@@ -104,9 +109,9 @@ function Header() {
 
 
             {/* CHANGE HERE to change left side links when compressed */}
-                <MenuItem key='Home' onClick={handleCloseNavMenu}>
-                    <Link to='/' className='link'>
-                        <Typography textAlign="center">Home</Typography>
+                <MenuItem key='App' onClick={handleCloseNavMenu}>
+                    <Link to='/app' className='link'>
+                        <Typography textAlign="center">App</Typography>
                     </Link>
                 </MenuItem>
             </Menu>
@@ -142,13 +147,13 @@ function Header() {
             ))} */}
 
             {/* CHANGE HERE to change links on the left of the navbar */}
-            <Link to='/' className='link'>
+            <Link to='/app' className='link'>
             <Button
-                key='Home'
+                key='App'
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                Home
+                App
             </Button>
             </Link>
 

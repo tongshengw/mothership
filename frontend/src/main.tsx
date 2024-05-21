@@ -11,8 +11,10 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Auth0Provider
     domain="dev-31cpu1sd5l2yxxp4.us.auth0.com"
     clientId="o7GzCbuNublBqCa3XDLBWpgObuiTJsDG"
+    useRefreshTokens={true}
+    cacheLocation="localstorage"
     authorizationParams={{
-      redirect_uri: "http://localhost:5173"
+      redirect_uri: "http://localhost:5173/login"
     }}
   >
 

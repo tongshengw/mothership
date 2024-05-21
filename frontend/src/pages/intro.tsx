@@ -1,8 +1,7 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from 'react-router-dom'
-import GoogleAuth from "../components/googleauth";
 
-const Homepage = () => {
+const IntroPage = () => {
     
     
 
@@ -13,12 +12,10 @@ const Homepage = () => {
     }
     return <>
     
-    <h1>homepage</h1>
+    <h1>Intro</h1>
     <Link to='/profile'>Profile</Link>
-
-    <GoogleAuth />
  
     </>
 }
 
-export default Homepage
+export default IntroPage
