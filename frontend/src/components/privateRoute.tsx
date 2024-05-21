@@ -6,9 +6,9 @@ const PrivateRoute = ({ Component }) => {
 const {isAuthenticated} = useAuth0();
 
 if (isAuthenticated === true) {
-    console.log("auth")
+    // console.log("auth")
 } else {
-    console.log("auth failed")
+    // console.log("auth failed")
 }
  
   return isAuthenticated ? <Component /> : <Navigate to="/" />;

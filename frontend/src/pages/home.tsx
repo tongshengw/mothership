@@ -9,7 +9,7 @@ const Homepage = () => {
     const { user, isAuthenticated } = useAuth0();
 
     if (isAuthenticated) {
-        console.log(user.name)
+        console.log("logged in as " + user.name)
     }
     return <>
     
