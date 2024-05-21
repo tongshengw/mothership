@@ -7,7 +7,6 @@ import { ThemeProvider } from '@emotion/react';
 import Header from './components/header';
 import PrivateRoute from './components/privateRoute';
 import IntroPage from './pages/intro';
-import { Navigate } from 'react-router-dom';
 import LoadingPage from './pages/loading';
 
 const App: React.FC = () => {
